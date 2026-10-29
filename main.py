@@ -19,7 +19,6 @@ def show_manu():
         exit()
     else:
          print("Invalid input. please enter 'yes' or 'no'.")
-
 def play_quiz():
     score=0
     user_corrects=0
@@ -40,7 +39,6 @@ def play_quiz():
         score-=3
     return score, user_corrects
 def show_results(score,user_corrects):
-
     print(f"Your final score is:{score}")
     print(f'Your answered{user_corrects} questions correctly.')
     console. print(f"Percentage:{user_corrects /len(questions)*100}",style="white on blue") 
