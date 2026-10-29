@@ -43,8 +43,7 @@ def show_results(score,user_corrects):
 
     print(f"Your final score is:{score}")
     print(f'Your answered{user_corrects} questions correctly.')
-    console. print(f"Percentage:{user_corrects /len(questions)*100}",style="white on blue")
-    
+    console. print(f"Percentage:{user_corrects /len(questions)*100}",style="white on blue") 
 while True:
     if show_manu():
         break
